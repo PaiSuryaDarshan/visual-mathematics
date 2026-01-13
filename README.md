@@ -2,6 +2,10 @@
 
 **Last updated:** 2026-01-13 20:25 UTC
 
+<p align="center">
+  <img src="image/README_banner.png" alt="Visual Mathematics banner" width="95%">
+</p>
+
 **Visual Mathematics** is an interactive collection of notebooks designed to build _intuition_ for mathematical, signal-processing, machine-learning and other concepts through **visualisation, interactivity, and direct manipulation of equations**.
 
 Rather than presenting mathematics as static symbols on a page, this repository focuses on _seeing_ how mathematical objects behave: how parameters change shapes, how structure emerges, and how abstract formulas map onto concrete visuals.
@@ -47,22 +51,18 @@ The repository is organised by conceptual domain, reflecting how these topics na
 visual-mathematics/
 ├── README.md
 ├── requirements.txt
-└── notebooks/
-    ├── fundamental_mathematics/
-    │   ├── TOC.md
-    │   └── (Basic Math-focused visual notebooks)
-    │
-    ├── signal_processing/
-    │   ├── TOC.md
-    │   └── (DSP-focused visual notebooks)
-    │
-    ├── machine_learning/
-    │   ├── TOC.md
-    │   └── (ML intuition and visualisation notebooks)
-    │
-    └── Spectroscopy/
-        ├── TOC.md
-        └── (ML intuition and visualisation notebooks)
+├── image/
+│   └── README_banner.png
+├── notebooks/
+│   ├── fundamental_mathematics/
+│   │   └── TOC.md
+│   ├── signal_processing/
+│   │   └── TOC.md
+│   └── machine_learning/
+│       └── TOC.md
+└── .github/
+    └── workflows/
+        └── readme-last-updated.yml
 ```
 
 Each subfolder contains its own **Table of Contents** called `TOC.md`, describing the scope and assumed background for that domain.
