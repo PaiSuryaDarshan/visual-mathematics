@@ -1,0 +1,46 @@
+# .github/workflows/readme-last-updated.yml
+name: Update README timestamp
+
+on:
+  push:
+    branches: ["main"]
+
+permissions:
+  contents: write
+
+jobs:
+  touch-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Update README
+        run: |
+          python - << 'PY'
+          from datetime import datetime, timezone
+          import pathlib, re
+
+          p = pathlib.Path("README.md")
+          txt = p.read_text(encoding="utf-8")
+
+          # ISO-style, unambiguous UTC timestamp
+          stamp = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
+          line = f"**Last updated:** {stamp}\n"
+
+          # Update all matching "Last updated" lines (if multiple exist)
+          pattern = r"^\*\*Last updated:\*\*.*$"
+          if re.search(pattern, txt, flags=re.M):
+              txt = re.sub(pattern, line.strip(), txt, flags=re.M)
+          else:
+              txt = txt.rstrip() + "\n\n" + line
+
+          p.write_text(txt, encoding="utf-8")
+          PY
+
+      - name: Commit changes (if any)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: update README timestamp"
+          git push

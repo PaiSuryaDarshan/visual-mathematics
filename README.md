@@ -1,6 +1,8 @@
 # Visual Mathematics
 
-**Visual Mathematics** is an interactive collection of notebooks designed to build _intuition_ for mathematical, signal-processing, and machine-learning concepts through **visualisation, interactivity, and direct manipulation of equations**.
+**Last updated:** 2026-01-13 18:42 UTC
+
+**Visual Mathematics** is an interactive collection of notebooks designed to build _intuition_ for mathematical, signal-processing, machine-learning and other concepts through **visualisation, interactivity, and direct manipulation of equations**.
 
 Rather than presenting mathematics as static symbols on a page, this repository focuses on _seeing_ how mathematical objects behave: how parameters change shapes, how structure emerges, and how abstract formulas map onto concrete visuals.
 
@@ -8,9 +10,9 @@ The emphasis is on **understanding before formalism**, without sacrificing techn
 
 ## Project Philosophy
 
-Many mathematical, signal-processing, and machine-learning ideas are not difficult because they are inherently complex, but because they are **experienced only through static symbols and final equations**. Too often, learners are asked to accept results without ever seeing how structure emerges, how parameters influence behaviour, or why a particular formulation makes sense in the first place.
+Many mathematical, signal-processing, and machine-learning ideas are not difficult because they are inherently complex, but because they are **experienced only through static symbols and final equations**. Too often, learners are asked to accept results without ever seeing how structure emerges, get a feel for how parameters influence behaviour, or why a particular formulation makes sense in the first place.
 
-This creates a gap between _knowing_ an equation and _understanding_ it.
+This creates a gap between "_knowing_" an equation and _understanding_ it.
 
 In practice, most intuition is built through experimentation: changing a parameter, observing what breaks, noticing patterns, and gradually forming a mental model. However, traditional resources rarely support this process. Concepts are presented as fixed truths rather than dynamic systems, and learners are left to build intuition implicitly or not at all.
 
@@ -24,9 +26,18 @@ This project is built around three principles:
 - **Visual grounding** – equations are always tied to plots, geometry, or distributions
 - **Incremental intuition** – concepts are explored progressively, not presented as finished results
 
-The goal is not to replace textbooks or lectures, but to complement them by making abstract ideas
+## Note from Author (Informal)
 
-The goal is not to replace textbooks or lectures, but to **complement them by making abstract ideas _feel obvious_...feel inevitable rather than arbitrary**. When a formula finally appears, it should feel like a natural conclusion of what has already been observed.
+**Created on:** 2026-01-01 UTC<br>
+**Published on:** 2026-01-13 UTC
+
+The goal is not to replace textbooks or lectures, but to **complement them by making abstract ideas and formulas _feel obvious_...** I aim to make them **feel inevitable rather than arbitrary**. When a formula finally appears, it should feel like a natural conclusion of what has already been observed.
+
+This project will never truly be "complete". At any given point, it reflects the boundary of what I currently understand and what I judge to be worth presenting—through visualisation. As my mathematical understanding deepens, the project will continue to evolve and grow by my side.
+
+To make this explicit, an automatic timestamp is included below, indicating the most recent update to this repository or its contents.
+
+**Last updated:** 2026-01-13 18:42 UTC
 
 ## Repository Structure
 
@@ -38,21 +49,23 @@ visual-mathematics/
 ├── requirements.txt
 └── notebooks/
     ├── fundamental_mathematics/
-    │   ├── README.md
-    │   ├── 01_unit_circle.ipynb
-    │   ├── 02_trigonometric_identities.ipynb
-    │   └── 03_gaussian_distribution.ipynb
+    │   ├── TOC.md
+    │   └── (Basic Math-focused visual notebooks)
     │
     ├── signal_processing/
-    │   ├── README.md
+    │   ├── TOC.md
     │   └── (DSP-focused visual notebooks)
     │
-    └── machine_learning/
-        ├── README.md
+    ├── machine_learning/
+    │   ├── TOC.md
+    │   └── (ML intuition and visualisation notebooks)
+    │
+    └── Spectroscopy/
+        ├── TOC.md
         └── (ML intuition and visualisation notebooks)
 ```
 
-Each subfolder contains its own `README.md` describing the scope and assumed background for that domain.
+Each subfolder contains its own **Table of Contents** called `TOC.md`, describing the scope and assumed background for that domain.
 
 ## What This Project Covers
 
@@ -97,6 +110,8 @@ The notebooks prioritise **clarity and intuition** over abstraction or efficienc
 
 Many notebooks rely on `ipywidgets`, so running them locally (rather than via static previews) is strongly recommended.
 
+Edit: In the future, I MAY include a binder or hoted notebook (Once I get the time and actually figure out how to set one up that is.)
+
 ## Intended Audience
 
 This project is suitable for:
@@ -108,7 +123,7 @@ This project is suitable for:
 
 The only assumed background is basic mathematical literacy and curiosity.
 
-## Status and Ongoing Development
+## Status and Ongoing Development (Formal acknowledgement)
 
 This repository is **actively evolving**.
 
@@ -118,4 +133,4 @@ There is no fixed endpoint by design.
 
 ## Acknowledgements
 
-Some notebooks and explanations were developed with the assistance of ChatGPT (OpenAI), used strictly as a drafting and ideation aid. All final structure, intent, and technical decisions reflect my own understanding and goals.
+All notebooks alongside it's explanations, structure, intent, and technical decisions are a reflection of purely my own understanding and goals.
