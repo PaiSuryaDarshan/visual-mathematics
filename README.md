@@ -1,6 +1,6 @@
 # Visual Mathematics
 
-**Last updated:** 2026-01-13 18:42 UTC
+**Last updated:** 2026-01-13 20:25 UTC
 
 **Visual Mathematics** is an interactive collection of notebooks designed to build _intuition_ for mathematical, signal-processing, machine-learning and other concepts through **visualisation, interactivity, and direct manipulation of equations**.
 
@@ -37,7 +37,7 @@ This project will never truly be "complete". At any given point, it reflects the
 
 To make this explicit, an automatic timestamp is included below, indicating the most recent update to this repository or its contents.
 
-**Last updated:** 2026-01-13 18:42 UTC
+**Last updated:** 2026-01-13 20:25 UTC
 
 ## Repository Structure
 
