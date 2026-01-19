@@ -110,7 +110,7 @@ The notebooks prioritise **clarity and intuition** over abstraction or efficienc
 
 Many notebooks rely on `ipywidgets`, so running them locally (rather than via static previews) is strongly recommended.
 
-Edit: In the future, I MAY include a binder or hoted notebook (Once I get the time and actually figure out how to set one up that is.)
+Edit: In the future., I MAY include a binder or hoted notebook (Once I get the time and actually figure out how to set one up that is.)
 
 ## Intended Audience
 
