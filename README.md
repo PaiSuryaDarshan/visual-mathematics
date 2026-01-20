@@ -51,6 +51,7 @@ The repository is organised by conceptual domain, reflecting how these topics na
 visual-mathematics/
 ├── README.md
 ├── requirements.txt
+├── Math_Symbol_ReferenceSheet.pdf
 ├── image/
 │   └── README_banner.png
 ├── notebooks/
@@ -66,6 +67,8 @@ visual-mathematics/
 ```
 
 Each subfolder contains its own **Table of Contents** called `TOC.md`, describing the scope and assumed background for that domain.
+
+`Note To Reader : Refer to the Math_Symbol_ReferenceSheet.pdf if you come across any symbols used within this repositry that maybe unfamiliar to you.`
 
 ## What This Project Covers
 
