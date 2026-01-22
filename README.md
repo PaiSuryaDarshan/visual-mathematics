@@ -68,7 +68,15 @@ visual-mathematics/
 
 Each subfolder contains its own **Table of Contents** called `TOC.md`, describing the scope and assumed background for that domain.
 
-<b>Note To Reader</b>: Refer to the Math_Symbol_ReferenceSheet.pdf (Topics listed below) if you come across any mathematical symbols/notations used within this repositry that may not be familiar to you. 
+<b>Note To Reader</b>: Mathematical notation is used frequently throughout this repository with the intent of familiarizing the reader with expressing core ideas in formal mathematical language, not just verbally but symbolically. Wherever possible, concepts are shown in their rigorous mathematical form to build fluency and precision.
+
+For example, from the statement <i>“A Markov process makes predictions independent of the past/prior states given the present/current state”</i>, the statistical relation of the outcome from a markov can be compactly written as,
+
+$$
+\text{Future} \;\perp\!\!\!\perp\; \text{Past} \mid \text{Present}
+$$
+
+Refer to the Math_Symbol_ReferenceSheet.pdf (Topics listed below) if you come across any mathematical symbols/notations used within this repositry that may not be familiar to you. 
 
 ```text
 Math_Symbol_ReferenceSheet.pdf
