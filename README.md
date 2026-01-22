@@ -68,7 +68,19 @@ visual-mathematics/
 
 Each subfolder contains its own **Table of Contents** called `TOC.md`, describing the scope and assumed background for that domain.
 
-`Note To Reader : Refer to the Math_Symbol_ReferenceSheet.pdf if you come across any symbols used within this repositry that maybe unfamiliar to you.`
+<b>Note To Reader<\b>: Refer to the Math_Symbol_ReferenceSheet.pdf (Topics listed below) if you come across any mathematical symbols/notations used within this repositry that may not be familiar to you. 
+
+```text
+Math_Symbol_ReferenceSheet.pdf
+├── 1.
+├── 2.
+├── 3.
+├── 4.
+├── 5.
+├── 6.
+├── 7.
+└── 8.
+```
 
 ## What This Project Covers
 
