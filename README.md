@@ -72,14 +72,14 @@ Each subfolder contains its own **Table of Contents** called `TOC.md`, describin
 
 ```text
 Math_Symbol_ReferenceSheet.pdf
-├── 1.
-├── 2.
-├── 3.
-├── 4.
-├── 5.
-├── 6.
-├── 7.
-└── 8.
+├── 1. Geometry and Linear Algebra
+├── 2. Sets and Logic
+├── 3. Probability and Statistics
+├── 4. Probability and Statistics (Core Additions)
+├── 5. Analysis and Asymptotics
+├── 6. Linear Maps and Operators
+├── 7. Advanced and Commonly Seen Symbols
+└── 8. Quantifiers and Number Systems
 ```
 
 ## What This Project Covers
