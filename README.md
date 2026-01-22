@@ -73,7 +73,7 @@ Each subfolder contains its own **Table of Contents** called `TOC.md`, describin
 For example, from the statement <i>“A Markov process makes predictions independent of the past/prior states given the present/current state”</i>, the statistical relation of the outcome from a markov can be compactly written as,
 
 $$
-\text{Future} \perp\perp\ \text{Past} \mid \text{Present}
+\text{Future} \perp \!\!\! \perp \text{Past} \mid \text{Present}
 $$
 
 Refer to the Math_Symbol_ReferenceSheet.pdf (Topics listed below) if you come across any mathematical symbols/notations used within this repositry that may not be familiar to you. 
