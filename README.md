@@ -56,11 +56,11 @@ visual-mathematics/
 │   └── README_banner.png
 ├── notebooks/
 │   ├── fundamental_mathematics/
-│   │   └── TOC.md
+│   │   └── 0_TOC.md
 │   ├── signal_processing/
-│   │   └── TOC.md
+│   │   └── 0_TOC.md
 │   └── machine_learning/
-│       └── TOC.md
+│       └── 0_TOC.md
 └── .github/
     └── workflows/
         └── readme-last-updated.yml
@@ -76,7 +76,7 @@ $$
 \text{Future} \text{ ⫫ } \text{Past} \mid \text{Present}
 $$
 
-Refer to the Math_Symbol_ReferenceSheet.pdf (Topics listed below) if you come across any mathematical symbols/notations used within this repositry that may not be familiar to you. 
+Refer to the Math_Symbol_ReferenceSheet.pdf (Topics listed below) if you come across any mathematical symbols/notations used within this repositry that may not be familiar to you.
 
 ```text
 Math_Symbol_ReferenceSheet.pdf
