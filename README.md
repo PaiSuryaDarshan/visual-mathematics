@@ -156,4 +156,4 @@ There is no fixed endpoint by design.
 
 ## Acknowledgements
 
-All notebooks alongside it's explanations, structure, intent, and technical decisions are a reflection of purely my own understanding and goals.
+All notebooks alongside it's explanations, structure, intent, and technical decisions are a reflection of purely my own understanding and goals..
